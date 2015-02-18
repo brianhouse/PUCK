@@ -1,0 +1,24 @@
+{% extends 'page.html' %}
+
+{% block head %}
+    <script type="text/javascript">
+        var puck_id = {{ puck.id }};
+    </script>
+    <script type="text/javascript" src="/static/js/data_handler.js"></script>
+{% endblock head %}
+
+{% block main %}
+
+    PUCK {{ puck.id }}<br />
+    {{ puck.mode }}<br />
+    {{ puck.active }}<br />
+    <br />
+
+    <div id="live_content" style="width: 785px;">
+        <div style="display: none;" id="error_message"></div>
+        <canvas id="canvas" width="785" height="250"></canvas>
+    </div>            
+
+    <div id="error_message"></div>
+
+{% endblock main %}

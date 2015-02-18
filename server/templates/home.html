@@ -1,0 +1,21 @@
+{% extends 'page.html' %}
+
+{% block main %}
+
+    ACTIVE PUCKS
+    <ul>
+    {% for puck_id in active_pucks %}
+        <li>{{ puck_id }} <a href="/{{ puck_id }}">CHART</a> <a href="/{{ puck_id }}.json">JSON</a></li>
+    {% endfor %}
+    </ul>
+
+    <br />
+
+    INACTIVE PUCKS
+    <ul>
+    {% for puck_id in inactive_pucks %}
+        <li>{{ puck_id }} <a href="/{{ puck_id }}">CHART</a> <a href="/{{ puck_id }}.json">JSON</a></li>
+    {% endfor %}
+    </ul>
+
+{% endblock main %}

@@ -1,0 +1,13 @@
+think about it in a flockhouse or greengoose context. you are using items around the house. each item then generates a narrative of how it was used.
+
+so mode corresponds to any domain-specific signal-processing for a given object. 
+
+hub/client less useful for the moment.
+
+but locator and web display super useful.
+
+
+- realtime web display
+- textual/narrative output
+
+ 

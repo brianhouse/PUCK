@@ -1,0 +1,13 @@
+body {
+    margin: 50px;
+    font: 18px monospace;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+#error_message {
+    color: red;
+}

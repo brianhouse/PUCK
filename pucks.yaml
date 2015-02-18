@@ -1,0 +1,12 @@
+# brian owns xbees like 0013A2004078XXXX
+
+base:
+    port: /dev/tty.usbserial-A70061ew
+    1: "00 13 A2 00 40 4B E9 0A"
+    # 1: "00 13 A2 00 40 78 E3 9F"
+
+pucks:
+    2: "00 13 A2 00 40 2C 4F B1"
+    3: "00 13 A2 00 40 78 E2 54"
+    4: "00 13 A2 00 40 78 E0 49"
+    5: "00 13 A2 00 40 78 E3 89"

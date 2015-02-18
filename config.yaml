@@ -1,0 +1,8 @@
+log: False
+tail: True
+
+tornado:
+    port: 5280
+    verbose: True
+
+redis: True
